@@ -1,0 +1,43 @@
+.ntaCT{
+    /* background-color: #ebcaca; */
+/* height: 50vh; */
+    font-weight: bold;
+    height: 80vh;
+     text-decoration: none;
+   padding: 9px;
+   position: relative;
+   /* background-image: url("../ing/5.jpg"); */
+   overflow: hidden;
+   width: 80vw;
+   margin: auto;
+   margin-top: 30px;
+}
+.ntaCT::after{
+    content: "";
+    background-image: url("../ing/3.jpg");
+    background-size: 900px;
+   
+    top:0;
+     position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.23;
+    z-index: -1;
+
+}
+
+.form-box input,textarea{
+    margin-top: 20px;
+  width: 44vw;
+  padding: 5px 6px;
+}
+
+.form-box .btn{
+    padding: 4px 14px;
+    border-radius:15px ;
+    
+}
+.form-box .btn:hover{
+  background-color: rgb(188, 241, 109);
+color: rgb(61, 61, 51);
+}
